@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin-left: 165px;
+}
+
+.background header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-top: 41px;
+}
+
+header ul {
+    display: flex;
+    gap: 31px;
+    margin: 41px 185px 0 0;
+}
+
+header li img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content {
+    margin-top: 86px;
+    width: 600px;
+}
+
+main .content h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #F9F9F9;
+}
+
+main .content h1 {
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 109%;
+
+    color: #F9F9F9;
+
+    margin: 14px 0 25px 0;
+}
+
+main .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+
+    color: #F9F9F9;
+
+    margin-bottom: 54px;
+}
+
+
+button{
+        background: transparent;
+        border: 2px solid #658E76;
+        color: #F9F9F9;
+        width: 225px;
+        height: 55px;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 300;
+        /*responsável por inclinar o botão*/
+        transform: skew(-24deg);
+        margin-right: 10px;
+      }
+      
+      button:hover {
+        cursor: pointer;
+        background-color: #658e76;
+      }
+
+      .banner{
+        margin-right: 165px;
+      }
